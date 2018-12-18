@@ -31,10 +31,16 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    border-radius: 7px;
 }
 .container-services-block > div{
     width: 80%;
 }
+.container-services-block:hover {
+    border-radius: 7px;
+    border: 2px solid #fed233;
+    cursor: pointer;
+  }
 .img-src-box-logo{
     margin-top: 10%;
     margin-bottom: 10%;
