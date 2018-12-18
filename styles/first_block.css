@@ -1,0 +1,163 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: url(../img/Rectangle-top.png) no-repeat;
+    background-size: cover;
+    height: 995px;
+}
+.what-we-offer{
+    position: absolute;
+    left: 0;
+    top: 995px;
+    height: 908px;
+    width: 100%;
+}
+.about-us{
+    position: absolute;
+    left: 0;
+    top: 1903px;
+    height: 493px;
+    width: 100%;
+    background: #F9FAFC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.callback-form{
+    position: absolute;
+    left: 0;
+    top: 2396px;
+    height: 537px;
+    width: 100%;
+    background: url(../img/Rectangle-top.png) no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.technologies-what-we-use-container{
+    position: absolute;
+    left: 0;
+    top: 2933px;
+    height: 615px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.let-us-work-together-container{
+    position: absolute;
+    left: 0;
+    top: 3548px;
+    height: 327px;
+    width: 100%;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+/*first block styles*/
+.headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 80px;
+    border-bottom: 1px solid gray;
+    align-self: center;
+}
+.procode-logo{
+    margin-right: 10% ;
+}
+.procode-logo-picture {
+width: 123px;
+height: 19px;
+}
+.headline_menu{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 376px;
+    justify-content: space-around;
+}
+.headline_menu > li{
+    list-style: none;
+}
+.headline_menu > li > a{
+    text-decoration: none;
+    color: white;
+}
+.main-content-top-card{
+    width: 80%;
+    height: 865px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+}
+.top-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    color: white;
+}
+.main-card-info{
+    display: flex;
+    flex-direction: column;
+}
+.main-card-info > h1{
+    line-height: 66px;
+    font-size: 40px;
+    margin-top: 0;
+}
+.main-card-text{
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 46px;
+}
+
+.content-separator-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.src-components-YellowBtn-style-root {
+display: -ms-flexbox;
+display: -webkit-box;
+display: flex;
+-ms-flex-pack: center;
+-webkit-box-pack: center;
+justify-content: center;
+-ms-flex-align: center;
+-webkit-box-align: center;
+align-items: center;
+background-color: #fed233;
+outline: none;
+padding: 1vw 5vw;
+border: none;
+border-radius: .5vw;
+font-weight: 600;
+cursor: pointer;
+}
+.main-card-info {
+color: white;
+}
+.main-procode-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 25px;
+}

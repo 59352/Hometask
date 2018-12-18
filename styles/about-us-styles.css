@@ -1,0 +1,40 @@
+.about-us-container{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+
+}
+.description-container-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.description-container-text{
+    line-height: 24px;
+    font-size: 18px;
+    color: #828282;
+}
+.description-container-element-head{
+    color: #FED233;
+    line-height: 60px;
+    font-size: 32px;
+}
+.description-container-element{
+    width: 250px
+}
+.description-container-element > hr{
+    color: #BDBDBD
+}
+.about-us-title{
+    color: #333333;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.about-us-text{
+    color: #333333;
+    line-height: 24px;
+    font-size: 18px;
+}

@@ -1,0 +1,37 @@
+.technologies-what-we-use-inner-container{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.technologies-what-we-use-boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-services-block{
+    width: 450px;
+}
+.technologies-what-we-use-head > h1{
+    margin-top: 80px;
+    line-height: 36px;
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 0;
+}
+.technologies-what-we-use-head > div{
+    line-height: 24px;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.description-container-element-head{
+    font-size: 24px !important;
+}
+.technologies-what-we-use-boxes-text{
+    line-height: 24px;
+    font-size: 18px;
+    color: #828282;
+}

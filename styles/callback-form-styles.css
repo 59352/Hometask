@@ -1,0 +1,29 @@
+.callback-form-container{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.src-components-BlockHeader-style-root{
+    line-height: 66px;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.src-components-YellowBtn-style-root{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.src-containers-Main-Block5Section-style-agree > label{
+    color: white;
+}
+.src-components-TextInput-style-root{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+::placeholder{
+    color: black;
+}

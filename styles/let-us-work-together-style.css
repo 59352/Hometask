@@ -1,0 +1,36 @@
+.let-us-work-together-inner-container{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+
+}
+.let-us-work-together-info{
+    display: flex;
+    flex-direction: column;
+}
+.motto-container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+.motto{
+    line-height: 36px;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.content-separator-line-item{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.let-us-work-together-footer-items{
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.let-us-work-together-footer-item{
+    color: white;
+}
