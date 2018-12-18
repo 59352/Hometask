@@ -95,6 +95,10 @@ height: 19px;
 .headline_menu > li > a{
     text-decoration: none;
     color: white;
+    height: 81px;
+}
+.headline_menu > li > a:hover {
+    border-bottom: 1px solid #fed233
 }
 .main-content-top-card{
     width: 80%;
